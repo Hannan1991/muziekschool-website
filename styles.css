@@ -1,0 +1,190 @@
+/* Algemene stijl */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1;
+}
+
+/* Header */
+header {
+    background-color: #ff8c00;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigatie */
+nav {
+    background-color: #ff5722;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* Sidebar */
+.left {
+    width: 30%;
+    background-color: #ffcc80;
+    padding: 20px;
+}
+
+.left h2 {
+    color: black;
+}
+
+.left img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Main content */
+main {
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+}
+
+main h2 {
+    color: #ff8c00;
+}
+
+main h3 {
+    color: black;
+    font-weight: bold;
+}
+
+main img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #d35400;
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left, main {
+        width: 100%;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Tabel styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ff8c00;
+    color: white;
+}
+
+/* Formulier styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+.small-img {
+    width: 200px; 
+    height: auto;
+    margin-left: 20px;
+    float: right;
+}
+
+.float-right {
+    float: right;
+    margin-left: 20px;
+}
+
+
+main p {
+    overflow: hidden;
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+u {
+    text-decoration: underline;
+}
